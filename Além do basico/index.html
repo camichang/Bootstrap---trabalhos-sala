@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap-4.6.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
+    <title>Bootstrap</title>
+
+    <style>
+        @media (min-width: 768px){}
+
+        p {
+            text-indent: 12px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <section class="container">
+        <h1 class="text-center">Desvendando Bootstrap</h1>
+        <div class="row">
+            
+        </div>
+        <div class="row">
+            <main class="col-md-7 bg-light">
+                <div>
+                    <h3>O que é o Bootstrap?</h3>
+                    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, iure
+                        veritatis? Corrupti ipsa nobis
+                        dicta adipisci expedita odit ullam fuga nam sint? Expedita repellat iure molestiae error
+                        dignissimos
+                        reprehenderit. Itaque?</p>
+                    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+                        reiciendis totam quasi dolor esse animi quibusdam voluptatibus blanditiis, perspiciatis
+                        accusamus, odit fugit consequuntur maxime harum corrupti, fugiat veritatis? Officiis, tempora
+                        est odit, perspiciatis, velit eveniet dolore nobis laudantium expedita a veritatis. Id eveniet
+                        nostrum ut, facilis quo earum quidem nobis numquam suscipit cupiditate beatae labore perferendis
+                        exercitationem harum, omnis molestiae minima eius repellat? Totam temporibus ipsum provident
+                        fuga rerum nesciunt nam, labore quia earum. Dignissimos aliquid similique alias, voluptatem
+                        reprehenderit reiciendis molestias ea nobis aliquam doloribus, obcaecati architecto cupiditate
+                        magni explicabo eos voluptate optio quia animi quam? Perspiciatis, a reprehenderit?</p>
+                </div>
+
+                <table class="table table-hover table-res" style="margin-top: 10px;">
+                    <thead class="thead-light">
+                        <tr>
+                            <th>Ranking Download</th>
+                            <th>1º Semestre</th>
+                            <th>2º Semestre</th>
+                            <th>País</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table-dark">
+                            <th>#1</th>
+                            <td>825.457.896</td>
+                            <td>947.689.026</td>
+                            <td>Canadá</td>
+                        </tr>
+                        <tr class="table-light">
+                            <th>#2</th>
+                            <td>759.478.963</td>
+                            <td>842.459.789</td>
+                            <td>Portugal</td>
+                        </tr>
+                        <tr class="table-danger">
+                            <th>#3</th>
+                            <td>678.015.677</td>
+                            <td>754.789.156</td>
+                            <td>Estados Unidos</td>
+                        </tr>
+                        <tr class="table-primary">
+                            <th>#4</th>
+                            <td>578.987.321</td>
+                            <td>645.893.014</td>
+                            <td>Alemanha</td>
+                        </tr>
+                        <tr class="table-warning">
+                            <th>#5</th>
+                            <td>478.598.145</td>
+                            <td>578.463.258</td>
+                            <td>Polônia</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div>
+                    <h3>Conclusão</h3>
+                    <p class="text-capitalize">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia fugit ex accusantium earum
+                        quisquam eaque eius eveniet praesentium consequatur ratione eligendi, animi nemo maiores
+                        accusamus consequuntur, itaque ipsum. </p>
+                </div>
+
+            </main>
+            <aside class="col-md-5 bg-light">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="list-group" id="list-tab" role="tablist">
+                            <a class="list-group-item list-group-item-action" data-toggle="list"
+                                href="#list-bootstrap" role="tab" aria-controls="bootstrap">Bootstrap.css</a>
+
+                            <a class="list-group-item list-group-item-action" data-toggle="list" href="#list-bootstrap2"
+                                role="tab" aria-controls="bootstrap2">Bootstrap.js</a>
+
+                            <a class="list-group-item list-group-item-action" data-toggle="list" href="#list-glyphicons"
+                                role="tab" aria-controls="glyphicons">Glyphicons </a>
+
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="list-bootstrap" role="tabpanel"
+                                aria-labelledby="list-bootstrap-list">
+                                <p class="text-justify">Bootstrap.css é um framework CSS que organiza e gerencia o
+                                    layout de um site.
+                                    Enquanto o HTML gerencia o conteúdo e a estrutura de uma página na web, o CSS lida
+                                    com o layout dela. Por essa razão, ambas as estruturas precisam coexistir para
+                                    desempenhar uma ação particular.</p>
+                                <p class="text-justify">
+                                    Por conta das suas funções, o CSS permite criar um visual uniforme em quantas
+                                    páginas e do jeito que você quiser. Diga adeus às horas de edição manual só para
+                                    mudar a largura de uma borda numa linha.</p>
+                            </div>
+                            <div class="tab-pane fade" id="list-bootstrap2" role="tabpanel"
+                                aria-labelledby="list-bootstrap2-list">
+                                <p class="text-justify">O arquivo Bootstrap.js é a parte central do Bootstrap. Ele
+                                    consiste em arquivos
+                                    JavaScript, responsáveis pela interatividade de um site.</p>
+                                <p class="text-justify">
+                                    Para poupar tempo em sempre terem que escrever sintaxes de JavaScript, os
+                                    desenvolvedores tendem a usar jQuery. Essa é uma plataforma de código-aberto popular
+                                    que permite adicionar várias funcionalidades em um site.</p>
+                            </div>
+                            <div class="tab-pane fade" id="list-glyphicons" role="tabpanel"
+                                aria-labelledby="list-glyphicons-list">
+                                <p class="text-justify">
+                                    Ícones são uma parte integral do front-end de um site. Eles são frequentemente
+                                    associados com certos tipos de ações e dados disponíveis na interface do usuário. E
+                                    o Bootstrap usa os Glyphicons para preencher essa necessidade.</p>
+                                <p class="text-justify">
+                                    O Bootstrap já tem vários símbolos Glyphicons gratuitos já desbloqueados para usar
+                                    desde o começo. A versão gratuita dele tem um visual padrão, mas dá conta do recado
+                                    para as funções mais essenciais.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-center">Por favor siga as nossas dicas de exercício</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-danger">+ de 30 min sentado - dê uma voltinha!
+                        </li>
+                        <li class="list-group-item list-group-item-warning">+ de 15 min sentado - Levante-se e se alongue!</li>
+                        <li class="list-group-item list-group-item-success">+ de 5 min sentado - Não se esqueça de levantar!
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+        <footer class="text-center" class="row bg-primary">
+            <p>Copyright 2021</p>
+        </footer>
+    </section>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="../bootstrap-4.6.0-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
